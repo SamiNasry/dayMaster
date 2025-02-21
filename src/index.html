@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DayMaster</title>
+</head>
+<body>
+    <div class="container">
+        <h1>DayMaster</h1>
+        <section class="task-input">
+            <input type="text"  id="taskInput" placeholder="Add a task...">
+            <input type="number" id="timeEstimate" placeholder="Est. hours" min="0" step="0.5">
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+        <section class="task-list">
+            <h2>Today's Tasks</h2>
+            <ul id="taskList"></ul>
+        </section>
+        <section class="time-tracking">
+            <h2>Time Tracking</h2>
+            <input type="number"  id="hoursWorked" placeholder="Hours worked today" min="0" step="0.5">
+            <button id="logTimeBtn">Log Time</button>
+            <p>Total Hours Today: <span id="totalHours">0</span></p>
+        </section>
+        <button id="wrapUpBtn">Wrap Up Day</button>
+    </div>
+    
+    
+</body>
+</html>
